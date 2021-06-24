@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Movies</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo"><a href="index.html" id="logo-link">Movies</a></h1>
+      <form class="search-form">
+        <input type="text" name="search" id="search-input" />
+        <button type="submit" id="search-btn">Search</button>
+      </form>
+    </nav>
+
+    <main class="movies">
+      <div class="movie-card">
+        <div class="poster">
+          <img
+            class="movie-poster"
+            src="C:\Users\prasad\Desktop\tmdb\Movies\poster.jpg"
+            alt="Movie Poster"
+          />
+        </div>
+        <div class="movie-info">
+          <div class="movie-name-year">
+            <h2 class="movie-name">JOKER</h2>
+            <span class="movie-year">2019</span>
+          </div>
+          <div class="rating">
+            <span class="movie-rating">9.5</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <div class="poster">
+          <img
+            class="movie-poster"
+            src="C:\Users\prasad\Desktop\tmdb\Movies\poster.jpg"
+            alt="Movie Poster"
+          />
+        </div>
+        <div class="movie-info">
+          <div class="movie-name-year">
+            <h2 class="movie-name">JOKER</h2>
+            <span class="movie-year">2019</span>
+          </div>
+          <div class="rating">
+            <span class="movie-rating">9.5</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <div class="poster">
+          <img
+            class="movie-poster"
+            src="C:\Users\prasad\Desktop\tmdb\Movies\poster.jpg"
+            alt="Movie Poster"
+          />
+        </div>
+        <div class="movie-info">
+          <div class="movie-name-year">
+            <h2 class="movie-name">JOKER</h2>
+            <span class="movie-year">2019</span>
+          </div>
+          <div class="rating">
+            <span class="movie-rating">9.5</span>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
