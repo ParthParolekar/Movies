@@ -89,3 +89,33 @@ main {
 .movie-name {
   font-size: 1rem;
 }
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color3);
+}
+
+.more-btn {
+  margin: 20px 0;
+  padding: 0.8rem 1.5rem;
+  font: inherit;
+  font-size: 1rem;
+  border: 1px solid var(--color4);
+  border-radius: 10px;
+  background: var(--color4);
+  color: var(--color1);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.more-btn:hover {
+  margin: 20px 0;
+  padding: 0.8rem 1.5rem;
+  font: inherit;
+  font-size: 1.4rem;
+  border: 1px solid var(--color2);
+  background: var(--color2);
+  color: var(--color1);
+}
